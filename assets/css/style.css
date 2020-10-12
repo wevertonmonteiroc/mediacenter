@@ -4,6 +4,7 @@
 body {
     margin: 0;
     padding: 0;
+    padding-bottom: 300px;
 }
 header {
     display: flex;
@@ -114,10 +115,28 @@ nav a:hover {
     font-size: 13px;
     text-decoration: none;
 }
-.banner_desc_monday {
-    font-size: 12px;
-    margin-top: 20px;
+#geral {
+    display: flex;
+    justify-content: center;
+}
+#geral section {
+    flex: 2;
+}
+#geral aside {
+    flex: 1;
+}
+.widget_tittle {
+    margin-top: 30px;
     margin-bottom: 20px;
-    border-bottom: 25px;
-    
+}
+.widget_tittle_text {
+    color: #000000;
+    font-size: 21px;
+    font-weight: bold;
+}
+.widget_tittle_bar {
+    width: 50px;
+    height: 2px;
+    background-color: #36a9e1;
+    margin-top: 10px;
 }
